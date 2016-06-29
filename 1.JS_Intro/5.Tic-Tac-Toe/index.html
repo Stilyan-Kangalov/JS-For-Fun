@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 3xT Game</title>
+  <meta name="description" content="The HTML5 3xT Game">
+  <meta name="author" content="Stilyan Kangalov">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="playGame();">
+<div id="container">
+    <h1>Play the Tic-Tac-Toe Game!</h1>
+    <div><p id="message">Info for the player</p></div>
+    <div id="table-box">
+        <table>
+            <tr>
+                <td id="b1" class="Box" onclick="userMove(this);"></td>
+                <td id="b2" class="Box" onclick="userMove(this);"></td>
+                <td id="b3" class="Box" onclick="userMove(this);"></td>
+            </tr>
+            
+            <tr>
+                <td id="b4" class="Box" onclick="userMove(this);"></td>
+                <td id="b5" class="Box" onclick="userMove(this);"></td>
+                <td id="b6" class="Box" onclick="userMove(this);"></td>
+            </tr>
+            
+            <tr>
+                <td id="b7" class="Box" onclick="userMove(this);"></td>
+                <td id="b8" class="Box" onclick="userMove(this);"></td>
+                <td id="b9" class="Box" onclick="userMove(this);"></td>
+            </tr>
+        
+        
+        </table>    
+    
+    </div>
+    <div id="footer-line"><a href="#" onclick="resGame();">Reset the game!</a></div>
+
+</div>
+  <script src="js/script.js"></script>
+</body>
+</html>
