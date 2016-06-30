@@ -1,3 +1,3 @@
-# JS_For_Fun
+# JS For Fun
 Javascript tasks from online training sessions.
 
